@@ -1,0 +1,50 @@
+.menu {
+    display: flex;                
+    padding: 0;                    
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style-type: none ;       
+}
+.menu a {
+    display: block;                
+    min-width: 120px;              
+    margin: 0.5rem;               
+    padding: 0.4rem 0;            
+    text-align: center;           
+    background-color: #808080;    
+    color: #FFFFFF;                 
+    text-decoration: none;       
+    border: 1px solid #FFFFFF;      
+    border-radius: 4px;    
+}
+
+.menu a.actif {    
+    background-color: #000000 ; 
+    color: #808080 ;
+    border-color: #808080 ;
+}
+
+.menu a:hover,
+.menu a:hover.actif{
+    background-color: #FF0000;
+    color: #FFE843;
+    border-color: #FFE843;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0px;
+	padding: 0px 10px;
+}
+
+main {
+	flex-grow: 1;
+}
+
+footer {
+	padding: 10px;
+}
