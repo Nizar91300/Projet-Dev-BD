@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menuCentre {
+    display: flex;                
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #262626;
+}
+
+.menuCentre a {                  
+    width: 120px;     
+    margin: 0.5em 1em;             
+    padding: 0.5em 0;            
+    text-align: center;           
+    background-color: #808080;    
+    color: #FFFFFF;                 
+    text-decoration: none;       
+    border: 1px solid #FFFFFF;      
+    border-radius: 4px;
+}
+
+nav a:hover{
+    background-color: #FF0000;
+    color: #FFE843;
+    border-color: #FFE843;
+}
+
+.logo, .btnCompte{
+    width: 120px;     
+    margin: 0.5em 0;             
+    padding: 0.5em 0;            
+    text-align: center;           
+    background-color: #808080;    
+    color: #FFFFFF;                 
+    text-decoration: none;       
+    border: 1px solid #FFFFFF;      
+    border-radius: 40px;
+}
