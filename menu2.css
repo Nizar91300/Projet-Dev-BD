@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: calibri;
+    background-color: #f5f5f7;
+}
+
+
+
+nav {
+    display: flex;                
+    justify-content: center;
+    background-color: #262626;
+    margin:auto;
+    font-size: 1vw;
+}
+
+nav a {              
+    margin: 0.5em 1em;             
+    padding: 0.5em 2em;            
+    text-align: center;           
+    background-color: #808080;    
+    color: #FFFFFF;                 
+    text-decoration: none;       
+    border: 0.1vw solid #FFFFFF;      
+    border-radius: 0.4vh;
+}
+
+nav a:hover{
+    background-color: #FF0000;
+    color: #FFE843;
+    border-color: #FFE843;
+}
+
+.btnCompte{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1vw; 
+    margin: 0.5em 0;             
+    padding: 0.5em 0;            
+    text-align: center;           
+    background-color: #808080;    
+    color: #FFFFFF;                 
+    text-decoration: none;       
+    border: 0.1vw solid #FFFFFF;      
+    border-radius: 4vw;
+}
+
+.logo{
+    width: 5vw;
+    position: absolute;
+}
+
+.titreBloc{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 4vh;
+}
+
+.premierBloc{
+    padding-bottom: 4%;
+}
+
+.livreVedette1{
+    display: flex;
+    width: 95vw;
+    margin: auto;
+    background-color: #eee8d8;
+    border-radius: 4vw;
+    /*box-shadow: 0.36vw 0.36vw 0.6vw 0.2vw rgba(142, 121, 62, .2);*/
+    box-shadow: rgba(99, 99, 99, 0.2) 0vw 1vw 4vw 0vw;
+    /*box-shadow: rgba(142, 121, 62, .2) 0vw 1vw 1.7vw;*/
+}
+
+.titreLivre{
+    margin-top: 10%;
+    margin-bottom: 7%;
+    font-size: 4vh;
+}
+
+.resumeLivre{
+    font-size: 2.5vh;
+    margin-bottom: 7%;
+}
+
+.infosLivre{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+}
+
+.btnInfosLivre a{
+    background-color: #c24c3a;
+    width: 25%;
+    text-align: center;
+    padding: 1% 4%;
+    text-decoration: none;
+    color: #eb9d88;
+    font-family: calibri;
+    font-size: 2vh;
+}
+
+.photoLivre{
+    /*width: 400px;
+    height: 500px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    /*text-align: center;*/
+}
+
+.photoLivre img{
+    margin: 5% 0;
+    aspect-ratio: 1.5/2;
+    width: 60%;
+    max-width: 80%;
+    background-color: #2596be;
+    /*box-shadow: 12px 12px 2px 1px rgba(201, 182, 131, .2);*/
+    box-shadow: 0.36vw 0.36vw 0.06vw 0.03vw rgba(142, 121, 62, .2);
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 
+    0px -2px 6px 0px inset;*/
+}
+
+.flecheGauche, .flecheDroite{
+    width: 5%;
+    margin: auto;
+}
+.flecheGauche img, .flecheDroite img{
+    width: 100%;
+}
