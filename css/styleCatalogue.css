@@ -1,0 +1,90 @@
+#lesFormations
+{
+    width:  80%;
+    height: 100%;
+    background-color : black;
+    border: solid white 5px;
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-around;
+}
+
+#filtres
+{
+    height : 100%;
+    width :20%;
+    border: solid black 5px;
+
+}
+#ff
+{
+    display : flex;
+
+}
+.unLivre
+{
+    display : flex;
+    flex-wrap: wrap;
+    width : 300px;
+    height : 150px;
+    background-color : red;
+    border : solid white 2px;
+    margin : 10px;
+
+}
+
+.coverBook
+{
+    background-color : yellow;
+    height : 100%;
+    width : 100px;
+}
+
+.infoLivre
+{
+    display : flex;
+    background-color : blue;
+}
+
+
+.unLivre {
+    display: grid;
+ 
+  }
+
+ 
+  .couvertureLivre{
+    width :100px;
+    grid-column: 1 ;
+    grid-row: 1 / span 3;
+    background-color : yellow;
+
+
+  }
+
+  .titreLivre {
+    margin-left: 2px;
+    grid-column: 2 ;
+    grid-row: 1;
+
+  }
+
+  .nomAuteurLivre {
+    margin-left: 2px;
+    grid-column: 2 ;
+    grid-row: 2 ;
+
+  }
+
+  .datePubliLivre {
+    grid-column: 3;
+    grid-row: 1 ;
+    margin: auto;
+    background-color: aquamarine;
+  }
+
+  .resumer {
+    padding-left: 2px;
+    grid-column: 2 / 4 ;
+    grid-row: 3;
+  }
