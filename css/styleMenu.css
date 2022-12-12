@@ -1,0 +1,51 @@
+nav {
+    display: flex;                
+    justify-content: center;
+    background-color: #262626;
+    margin:auto;
+    font-size: 1vw;
+}
+
+nav a {              
+    margin: 0.5em 1em;             
+    padding: 0.5em 2em;            
+    text-align: center;           
+    background-color: #808080;    
+    color: #FFFFFF;                 
+    text-decoration: none;       
+    border: 0.1vw solid #FFFFFF;      
+    border-radius: 0.4vh;
+}
+
+nav a:hover{
+    background-color: #FF0000;
+    color: #FFE843;
+    border-color: #FFE843;
+}
+
+.btnCompte{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1vw; 
+    margin: 0.5em 0;             
+    padding: 0.5em 0;            
+    text-align: center;           
+    background-color: #808080;    
+    color: #FFFFFF;                 
+    text-decoration: none;       
+    border: 0.1vw solid #FFFFFF;      
+    border-radius: 4vw;
+}
+
+.logo{
+    width: 5vw;
+    position: absolute;
+}
+
+.titreBloc{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 4vh;
+}
+
