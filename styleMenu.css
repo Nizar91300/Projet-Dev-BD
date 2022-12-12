@@ -3,16 +3,11 @@
     margin: 0;
 }
 
-body {
-    padding-bottom: 40px;
-}
-
 nav {
     display: flex;                
     justify-content: center;
     background-color: #262626;
     margin:auto;
-	flex-grow: 1;
 }
 
 nav a {                  
@@ -48,141 +43,64 @@ nav a:hover{
     border-radius: 40px;
 }
 
-img{
+.logo{
     width: 100px;
     position: absolute;
 }
 
+.titreBloc{
+    margin-top: 2%;
+    text-align: center;
+}
 
-.mainContainer{
-    width: 85%;
-    margin: 50px auto;
+.premierBloc{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 0.5fr repeat(4, 1fr);
+    width: 95%;
+    margin: auto;
     background-color: #D9D9D9;
     border-radius: 40px;
-	display: flex;
+}
+
+.titreLivre{
+    grid-area: 1 / 1 / 2 / 6;
+    text-align: center;
+    background-color: #0000FF;
+}
+
+.infosLivre{
+    grid-area: 2 / 1 / 6 / 4;
+    padding: 5% 10%;
+    background-color: #008000;
+}
+
+.tagEtVal{
+    display: flex;
+}
+
+.tagsInfosLivre{
+}
+.tagsInfosLivre p, .valeurInfosLivre p{
+    margin: 5%;
+}
+.valeurInfosLivre{
+}
+
+
+.resumeLivre{
+    padding-top: 2%;
 }
 
 .photoLivre{
-    width: 150px;
-    height: 250px;
+    grid-area: 2 / 4 / 6 / 6;
+    /*width: 400px;
+    height: 500px;*/
+    text-align: center;
+    background-color: #FFA500;
+}
+
+.photoLivre img{
+    max-width: 85%;
     background-color: #2596be;
-	margin-left: 675px;
-	margin-top: 5px;
-	margin-bottom: 50px;
-	flex-basis: auto;
-}
-
-
-.newContainer{
-    width: 85%;
-    margin: 50px auto;
-    background-color: #D9D9D9;
-    border-radius: 40px;
-	display: flex;
-}
-
-.newPhotoLivre{
-    width: 150px;
-    height: 250px;
-    background-color: #2596be;
-	margin-left: 125px;
-	margin-top: 5px;
-	margin-bottom: 50px;
-	flex-basis: auto;
-}
-
-
-.randomContainer{
-    width: 85%;
-    margin: 50px auto;
-    background-color: #D9D9D9;
-    border-radius: 40px;
-	display: flex;
-}
-
-.randomPhotoLivre{
-    width: 150px;
-    height: 250px;
-    background-color: #2596be;
-	margin-left: 125px;
-	margin-top: 5px;
-	margin-bottom: 50px;
-	flex-basis: auto;
-}
-
-
-footer {
-   position: fixed;
-   bottom: 0;
-   width: 100%;
-   background-color: black;
-   color: white;
-   text-align: center;
-   padding: 20px;
-}
-
-@media (max-width: 835px) {
-	.dropdown {
-        position: fixed;
-        z-index: 2;
-    }
-
-    .dropdown ul {
-        opacity: 0;
-        transition: 1s;
-        top: 35px;
-    }
-      
-    .dropdown li:hover ul {
-        opacity: 1;
-    }
-	
-    .btnPrincipal {
-        font-size: 40px;
-    }
-
-    .dropdown-child {
-        position: absolute;
-        background-color: grey;
-        border: 5px solid black;
-        border-radius: 10px;
-    }
-    
-    .dropdown-child a {
-        color: white;
-        font-size: 15pt;
-        padding: 10px 20px;
-        text-decoration: none;
-        display: block;
-    }
-	
-	li {
-        list-style-type: none;
-        text-align: center;
-    }
-}
-
-@media (min-width: 835px) {
-    .btnPrincipal {
-        display: none;
-    }
-
-    .dropdown {
-        display: none;
-    }
-
-    .dropdown-child {
-        display: none;
-    }
-}
-
-
-label {
-    display: block;
-	margin-top: 50px;
-}
-
-.barre, label {
-	margin-left: 100px;
-	border-radius: 10px;
 }
